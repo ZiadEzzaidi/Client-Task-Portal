@@ -1,0 +1,47 @@
+.task {
+  border: 1px solid #e0e0e0;
+  border-radius: 12px;
+  padding: 20px;
+  margin: 12px 0;
+  background: white;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transition: all 0.2s ease;
+}
+
+.task h3 {
+  margin-top: 0;
+  margin-bottom: 12px;
+  color: #2e3a46;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+}
+
+.task p {
+  color: #4a6d8c;
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 16px;
+}
+
+.task-meta {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 16px;
+  font-size: 14px;
+  color: #666;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Status colors */
+.task.todo {
+  border-left: 4px solid #ff6f61; /* Bright Coral */
+}
+
+.task.in-progress {
+  border-left: 4px solid #4a6d8c; /* Slate Blue */
+}
+
+.task.done {
+  border-left: 4px solid #2e3a46; /* Dark Slate */
+}

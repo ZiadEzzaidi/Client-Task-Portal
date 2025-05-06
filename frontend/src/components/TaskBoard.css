@@ -1,0 +1,35 @@
+.task-board {
+  display: flex;
+  gap: 24px;
+  padding: 24px;
+  background: #f7f7f7;
+  min-height: 100vh;
+}
+
+.task-column {
+  flex: 1;
+  background: white;
+  border-radius: 12px;
+  padding: 16px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: all 0.2s ease;
+}
+
+.task-column.column-over {
+  background: #f0f0f0;
+}
+
+.task-column h3 {
+  margin-top: 0;
+  padding-bottom: 12px;
+  border-bottom: 1px solid #e0e0e0;
+  color: #2e3a46;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.tasks-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
